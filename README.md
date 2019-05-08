@@ -5,10 +5,8 @@
 - [ ] Max Speed Calculator
 - [ ] Save Calculations (Ask User for keywoard)
 - [ ] Compare Saved results
-- [ ] Create Splash Screen
-
+- [ ] Create Splash Screen (Kert)
 - [x] Create App Icons (Kert)
-
 - [ ] Write Better Readme.md (Kert)
 
 #### add your name if you took this task
