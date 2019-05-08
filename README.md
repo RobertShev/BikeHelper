@@ -6,7 +6,8 @@
 - [ ] Save Calculations (Ask User for keywoard)
 - [ ] Compare Saved results
 - [ ] Create Splash Screen
-- [ ] Write Better Readme.md
+- [ ] Create App Icons (Kert)
+- [ ] Write Better Readme.md (Kert)
 
 #### add your name if you took this task
 #### add x into square if done 
