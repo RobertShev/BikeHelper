@@ -8,5 +8,5 @@
 - [ ] Create Splash Screen
 - [ ] Write Better Readme.md
 
-add your name if you took this task
-add x into square if done 
+### add your name if you took this task
+### add x into square if done 
