@@ -5,7 +5,7 @@
 - [ ] Max Speed Calculator(Norman)
 - [ ] Save Calculations (Ask User for keywoard)
 - [ ] Compare Saved results (Grete)
-- [ ] Create Splash Screen (Kert)
+- [x] Create Splash Screen (Kert)
 - [x] Create App Icons (Kert)
 - [ ] Write Better Readme.md (Kert)
 - [ ] Test on iOS device (Kertu)
