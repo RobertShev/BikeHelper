@@ -8,7 +8,7 @@
 - [ ] Create Splash Screen (Kert)
 - [x] Create App Icons (Kert)
 - [ ] Write Better Readme.md (Kert)
-- [ ] Test on iOS device 
+- [ ] Test on iOS device (Kertu)
 
 #### add your name if you took this task
 #### add x into square if done 
