@@ -11,7 +11,7 @@ namespace bikeHelper.ViewModels
         {
             Title = "About";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://github.com/RobertShev/BikeHelper")));
         }
 
         public ICommand OpenWebCommand { get; }
