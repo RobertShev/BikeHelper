@@ -25,8 +25,8 @@ namespace bikeHelper.Views
 
             var item = new Item
             {
-                Text = "Item 1",
-                Description = "This is an item description."
+                BikeName = "Item 1",
+                BikePrice = "$$$"
             };
 
             viewModel = new ItemDetailViewModel(item);

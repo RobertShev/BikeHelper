@@ -18,8 +18,8 @@ namespace bikeHelper.Views
 
             Item = new Item
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                BikeName = "Item name",
+                BikePrice = "$$$"
             };
 
             BindingContext = this;

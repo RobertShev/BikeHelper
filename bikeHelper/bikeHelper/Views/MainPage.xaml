@@ -5,7 +5,7 @@
             x:Class="bikeHelper.Views.MainPage">
 
     <TabbedPage.Children>
-        <NavigationPage Title="Calculator">
+        <NavigationPage Title="Speed">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="iOS" Value="tab_feed.png"/>
@@ -13,6 +13,16 @@
             </NavigationPage.Icon>
             <x:Arguments>
                 <views:CalculatorPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Size">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:FrameSizePage />
             </x:Arguments>
         </NavigationPage>
         <NavigationPage Title="Saved">
@@ -25,7 +35,6 @@
                 <views:ItemsPage />
             </x:Arguments>
         </NavigationPage>
-        
         <NavigationPage Title="About">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">

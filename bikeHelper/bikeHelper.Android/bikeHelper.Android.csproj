@@ -91,7 +91,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\bikeHelper_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\bikeHelper\bikeHelper.csproj">
