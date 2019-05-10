@@ -44,7 +44,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="This app is build to calculate bike gear Ratio and maximum bike speed on this gear." />
+                                <Span Text="This app is build to help choose bicycle. Calculate Max Speed. Write down prices. Find Best Fitting Frame." />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
