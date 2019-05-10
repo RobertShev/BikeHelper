@@ -15,4 +15,28 @@
             <Color x:Key="LightTextColor">#999999</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
+    <Grid Padding="20, 20, 20, 0">
+        <Grid.Margin>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS" Value="0,40,0,0" />
+                <On Platform="Android, WinPhone, Windows" Value="0,0,0,0" />
+            </OnPlatform>
+        </Grid.Margin>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Cadence" Text="Cadence:" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" />
+        <Entry x:Name="RPM" Placeholder="RPM" Grid.Row="0" Grid.Column="1" />
+        <Label x:Name="RimSize" Text="Rim Size" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" />
+        <Entry x:Name="Inches" Placeholder="inches" Grid.Row="1" Grid.Column="1" />
+        <Label x:Name="FrontGear" Text="Chainring" Grid.Row="2" Grid.Column="0" VerticalOptions="Center" />
+        <Entry x:Name="BigGear" Placeholder="50" Grid.Row="2" Grid.Column="1" />
+        <Label x:Name="BackGear" Text="Smallest cassete" Grid.Row="3" Grid.Column="0" VerticalOptions="Center" />
+        <Entry x:Name="SmallGear" Placeholder="12" Grid.Row="3" Grid.Column="1" />
+        <Button x:Name="BtnSpeed" Text="Calculate" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="BtnSpeed_Clicked" />
+        <Label x:Name="MaxSpeed" Text="Max Speed" Grid.Row="5" Grid.Column="0" VerticalOptions="Center" />
+        <Label x:Name="GearRatio" Text="Gear Ratio" Grid.Row="6" Grid.Column="0" VerticalOptions="Center"/>
+    </Grid>
 </ContentPage>
