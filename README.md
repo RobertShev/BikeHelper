@@ -1,6 +1,5 @@
 # BikeHelper
  ### Project Tasks (Android | iOS Version)
-- [ ] Set up SQLITE DB (Robert kui jääb aega)
 - [ ] Bike Gear Ratio Calculator (Robert)
 - [ ] Max Speed Calculator(Norman)
 - [ ] Save Calculations (Ask User for keywoard)
