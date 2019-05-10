@@ -7,6 +7,7 @@
 - [ ] Compare Saved results (Grete)
 - [x] Create Splash Screen (Kert)
 - [x] Create App Icons (Kert)
+- [ ] Screenshots and Video to Readme.md (Kert)
 - [ ] Write Better Readme.md (Kert)
 - [ ] Test on iOS device (Kertu)
 
