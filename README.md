@@ -1,9 +1,9 @@
 # BikeHelper
  ### Project Tasks (Android | iOS Version)
-- [ ] Bike Gear Ratio Calculator (Robert)
-- [ ] Max Speed Calculator(Norman)
-- [ ] Save Calculations (Ask User for keywoard)
-- [ ] Compare Saved results (Grete)
+- [x] Bike Gear Ratio Calculator (Robert)
+- [x] Max Speed Calculator(Norman)
+- [x] Bike Fitment Calculator (kertu)
+- [x] Save Bikes with Prices (Grete)
 - [x] Create Splash Screen (Kert)
 - [x] Create App Icons (Kert)
 - [ ] Screenshots and Video to Readme.md (Kert)
