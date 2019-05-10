@@ -23,7 +23,7 @@ namespace bikeHelper.Views
             double speed = ((ratio * RimSize * 0.0314)/1000) * Cadence * 60;
 
             MaxSpeed.Text = speed.ToString() + " KM/H";
-            GearRatio.Text = ratio.ToString() + " Ratio";
+            GearRatio.Text = "Ratio of " + ratio.ToString();
         }
     }
 }
