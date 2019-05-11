@@ -11,7 +11,7 @@ We chose Xamarin.Forms because we wanted to use the same code for both Android a
 
 Xamarin.Forms is a powerful framework for creating cross platform applications using .Net. It provides means to write application logic and user interfaces that can be shared across platforms.
 
-## Team members:
+## Team members
 ### Robert Shevchenko, Kertu Kipper, Grete Ojavere, Norman Salong, Kert Tamm
 
 ### Task Division (Android | iOS Version)
