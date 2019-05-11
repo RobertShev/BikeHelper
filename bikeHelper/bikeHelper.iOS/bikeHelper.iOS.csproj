@@ -51,6 +51,7 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>iOS Team Provisioning Profile: com.xamarin.MobileDev.bikeHelper</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -136,7 +137,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\bikeHelper\bikeHelper.csproj">
-      <Project>{209FA243-12E5-4C64-A696-3F204A2C6F56}</Project>
+      <Project>{0CADB8F1-043C-454B-A5E6-22F0C21EB314}</Project>
       <Name>bikeHelper</Name>
     </ProjectReference>
   </ItemGroup>
