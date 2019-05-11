@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="bikehelper_github_logo.png" width="256" title="BikeHelper">
+  <img src="Screenshots/bikehelper_github_logo.png" width="1000" title="BikeHelper">
 </p>
 <p align="center"><b>Android | iOS</b></p>
 
