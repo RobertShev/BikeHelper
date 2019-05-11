@@ -3,8 +3,6 @@
 </p>
 <p align="center"><b>Android | iOS</b></p>
 
-# BikeHelper
-
 ## What's BikeHelper?
 BikeHelper helps cyclists to find their perfect bicycle. You can calculate speed, write down names/prices and calculate ideal frame size.
 
