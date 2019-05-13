@@ -22,8 +22,8 @@ namespace bikeHelper.Views
             double ratio = FrontGear / RearGear;
             double speed = ((ratio * RimSize * 0.0314)/1000) * Cadence * 60;
 
-            MaxSpeed.Text = speed.ToString() + " KM/H";
-            GearRatio.Text = "Ratio of " + ratio.ToString();
+            MaxSpeed.Text = speed.ToString("N2") + " KM/H";
+            GearRatio.Text = "Ratio of " + ratio.ToString("N2");
         }
     }
 }
