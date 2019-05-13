@@ -14,16 +14,27 @@ namespace bikeHelper.Views
 
         private void BtnSpeed_Clicked(object sender, EventArgs e)
         {
-            Double Cadence = Double.Parse(RPM.Text);
-            Double RimSize = Double.Parse(Inches.Text) * 2.54;
-            Double FrontGear = Double.Parse(BigGear.Text);
-            Double RearGear = Double.Parse(SmallGear.Text);
+            if (RPM.Text != null && Inches.Text != null && BigGear.Text != null && SmallGear.Text != null)
+            {
+                Double Cadence = Double.Parse(RPM.Text);
+                Double RimSize = Double.Parse(Inches.Text) * 2.54;
+                Double FrontGear = Double.Parse(BigGear.Text);
+                Double RearGear = Double.Parse(SmallGear.Text);
+                double ratio = FrontGear / RearGear;
+                double speed = ((ratio * RimSize * 0.0314) / 1000) * Cadence * 60;
 
-            double ratio = FrontGear / RearGear;
-            double speed = ((ratio * RimSize * 0.0314)/1000) * Cadence * 60;
+                MaxSpeed.Text = speed.ToString("N2") + " KM/H";
+                GearRatio.Text = "Ratio of " + ratio.ToString("N2");
 
-            MaxSpeed.Text = speed.ToString("N2") + " KM/H";
-            GearRatio.Text = "Ratio of " + ratio.ToString("N2");
+            }
+            else
+            {
+                MaxSpeed.Text = "error";
+                GearRatio.Text = "error";
+            }
+
+
+     
         }
     }
 }
