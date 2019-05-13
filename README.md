@@ -25,6 +25,9 @@ Xamarin.Forms is a powerful framework for creating cross platform applications u
 - [x] Write Readme.md (Kert)
 - [x] Test on iOS device (Kertu)
 
+## Video
+https://imgur.com/gallery/ULsNKFb
+
 ## Screenshots
 <img align=left src="Screenshots/sh1.png" width="149" height="256" title="New Item">
 <img align=left src="Screenshots/sh2.png" width="149" height="256" title="Saved Items">
